@@ -1,31 +1,51 @@
-img {
-    width: 430px;
-    height: 330px;
-    background-size: contain;
-    margin-left: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
+#trainers {
+    height: 500px;
+}
+
+#left-image {
+    width: 33%;
+    float: left;
+    background-color:aquamarine;
+    padding-top: 10px;
+}
+
+
+#right-image {
+    width: 33%;
+    float: right;
+    background-color: blueviolet;
+    padding-top: 25px;
+}
+
+#center-image {
+    width: 33%;
+    margin: 0 auto;
+    background-color: coral;
+    padding-top: 25px;
+}
+.first-trainer {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#first-trainer-image {
+    background: url(../css/images);
 }
 h2 {
     text-align: center;
-    font-size: 38px;
+    font-size: 28px;
+    border-bottom: 1px solid palevioletred;
+    border-width: 33%;
     
 }
-P {
-     margin-left: 50px;
-    font-size: 20px;
-    margin-top: 25px;
-    float: left;
+h3 {
+    text-align: center;
 }
-.middle-image {
-    display: flex;
-    justify-content: center;
-    margin-right: 50px;
-    
-   
-}
-.middle {
-    
-    overflow: hidden; 
-    display: inline-block;
+.first-text {
+    margin-left: 100px;
+    margin-right: 100px;
 }
