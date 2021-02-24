@@ -1,11 +1,12 @@
 #trainers {
     height: 500px;
+    background-color: #14141f;
 }
 
 #left-image {
     width: 33%;
     float: left;
-    background-color:aquamarine;
+    
     padding-top: 10px;
 }
 
@@ -13,24 +14,25 @@
 #right-image {
     width: 33%;
     float: right;
-    background-color: blueviolet;
-    padding-top: 25px;
+    
+    padding-top: 10px;
 }
 
 #center-image {
     width: 33%;
     margin: 0 auto;
-    background-color: coral;
-    padding-top: 25px;
+  
+    padding-top: 10px;
 }
 .first-trainer {
     width: 200px;
     height: 200px;
     border-style: solid;
-    border-color: black;
+    border-color: #ffffff;
     border-width: 2px;
     border-radius: 50%;
     margin: 0 auto;
+    background-color: azure;
 }
 #first-trainer-image {
     background: url(../css/images);
@@ -38,14 +40,53 @@
 h2 {
     text-align: center;
     font-size: 28px;
-    border-bottom: 1px solid palevioletred;
-    border-width: 33%;
+    border-bottom: 1px solid #ffffff;
+    color: azure;
+    
     
 }
 h3 {
     text-align: center;
+    color: azure;
 }
 .first-text {
     margin-left: 100px;
     margin-right: 100px;
+    color: azure;
+}
+.second-trainer {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: azure;
+}
+/*-----------------------background image ----*/
+.second-trainer img {
+    height: 100%;
+    border-radius: 50%;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpErxEz9GWXF4PWZdNWYiFmEEwAwws7G3utQ&usqp=CAU);
+}
+.second-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: azure;
+}
+.third-trainer {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: azure;
+}
+.third-text {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: azure;
 }
