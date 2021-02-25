@@ -1,6 +1,6 @@
 #trainers {
     height: 500px;
-    background-color: #14141f;
+    background-color: #07070c;
 }
 
 #left-image {
@@ -27,24 +27,24 @@
 .first-trainer {
     width: 200px;
     height: 200px;
-    border-style: solid;
+  /*  border-style: solid;
     border-color: #ffffff;
-    border-width: 2px;
+    border-width: 2px; */
     border-radius: 50%;
     margin: 0 auto;
-    background-color: azure;
+    background-image: url(../images/face-1.jpg);
 }
-#first-trainer-image {
-    background: url(../css/images);
-}
+#first-trainer-image 
+    
+ 
 h2 {
     text-align: center;
     font-size: 28px;
-    border-bottom: 1px solid #ffffff;
     color: azure;
-    
-    
+    text-decoration: underline;
 }
+    
+
 h3 {
     text-align: center;
     color: azure;
@@ -57,18 +57,15 @@ h3 {
 .second-trainer {
     width: 200px;
     height: 200px;
-    border-style: solid;
+   /* border-style: solid;
     border-color: #ffffff;
-    border-width: 2px;
+    border-width: 2px; */
     border-radius: 50%;
     margin: 0 auto;
-    background-color: azure;
+    background-image: url(../images/face-2.jpg);
 }
 /*-----------------------background image ----*/
 .second-trainer img {
-    height: 100%;
-    border-radius: 50%;
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpErxEz9GWXF4PWZdNWYiFmEEwAwws7G3utQ&usqp=CAU);
 }
 .second-text {
     margin-left: 100px;
@@ -78,12 +75,12 @@ h3 {
 .third-trainer {
     width: 200px;
     height: 200px;
-    border-style: solid;
+  /*  border-style: solid;
     border-color: #ffffff;
-    border-width: 2px;
+    border-width: 2px; */
     border-radius: 50%;
     margin: 0 auto;
-    background-color: azure;
+    background-image: url(../images/face-3.jpg);
 }
 .third-text {
     margin-left: 100px;
