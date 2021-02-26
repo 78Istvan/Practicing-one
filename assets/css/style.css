@@ -1,3 +1,6 @@
+body {
+    background-color: black;
+}
 #trainers {
     height: 500px;
     background-color: #07070c;
@@ -40,7 +43,7 @@
 h2 {
     text-align: center;
     font-size: 28px;
-    color: azure;
+    color: #ffffff;
     text-decoration: underline;
 }
     
@@ -65,7 +68,7 @@ h3 {
     background-image: url(../images/face-2.jpg);
 }
 /*-----------------------background image ----*/
-.second-trainer img {
+.second-trainer-imgage {
 }
 .second-text {
     margin-left: 100px;
@@ -86,4 +89,39 @@ h3 {
     margin-left: 100px;
     margin-right: 100px;
     color: azure;
+}
+.about-img {
+    width: 50%;
+  
+    float: left;
+    height: 400px;
+}
+
+.about-text {
+    width: 50%;
+ 
+    float: right;
+    height: 400px;
+}
+
+#about {
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+p {
+    color: #ffffff;
+    text-align: left;
+    margin-left: 25px;
+    
+    
+}
+.middle-img {
+    width: 500px;
+    height: 400px;
+    float: right;
+    margin-right: 25px;
 }
