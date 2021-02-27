@@ -43,14 +43,14 @@ body {
 h2 {
     text-align: center;
     font-size: 28px;
-    color: #ffffff;
+    color: #A9A9A9;
     text-decoration: underline;
 }
     
 
 h3 {
     text-align: center;
-    color: azure;
+    color: #A9A9A9;
 }
 .first-text {
     margin-left: 100px;
@@ -67,13 +67,12 @@ h3 {
     margin: 0 auto;
     background-image: url(../images/face-2.jpg);
 }
-/*-----------------------background image ----*/
-.second-trainer-imgage {
-}
+
+
 .second-text {
     margin-left: 100px;
     margin-right: 100px;
-    color: azure;
+    color: #A9A9A9;
 }
 .third-trainer {
     width: 200px;
@@ -88,8 +87,9 @@ h3 {
 .third-text {
     margin-left: 100px;
     margin-right: 100px;
-    color: azure;
+    color: #A9A9A9;
 }
+/*---------------------second section-----*/
 .about-img {
     width: 50%;
   
@@ -99,24 +99,23 @@ h3 {
 
 .about-text {
     width: 50%;
- 
     float: right;
-    height: 400px;
 }
+#middle-text {
+    padding-right: 70px;
+    color: #A9A9A9;
+    margin-right: 50px;
+}   
+
 
 #about {
-    color: #ffffff;
+    color: #A9A9A9;
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom: 50px;
-}
-p {
-    color: #ffffff;
-    text-align: left;
-    margin-left: 25px;
-    
+
     
 }
 .middle-img {
@@ -124,4 +123,8 @@ p {
     height: 400px;
     float: right;
     margin-right: 25px;
+}
+}
+footer{
+    height: 300px;
 }
