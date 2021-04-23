@@ -15,22 +15,33 @@ body {
 /*--Top-Image-and text--*/
    
 .top-image {
-    padding: 150px 0;
-    border: 2px;
-    text-align: center;
-    background-image: url("../images/gym-2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    color: white;
-}
-#top-image-main {
-    height: 610px;
-    padding-top: 65px;
     background-color: #000000;
+    width: 100%;
+}
+.navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-toggler-icon {
+    color: #fff;
+}
+.navbar-toggler {
+    font-size: 0.5rem;
+}
+   
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
 }
 
+.navbar-brand {
+    color: #fff
+}
 .motivation {
     text-align: center;
     color: #ffffff;
